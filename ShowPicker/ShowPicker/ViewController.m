@@ -68,9 +68,6 @@
 	[UIView setAnimationDelegate:self];
 	picker.frame = CGRectMake(0, 420, 320, 216);
 	[UIView commitAnimations];
-    
-	//doneボタンを消す
-	[self.navigationItem setRightBarButtonItem:nil animated:YES];
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
