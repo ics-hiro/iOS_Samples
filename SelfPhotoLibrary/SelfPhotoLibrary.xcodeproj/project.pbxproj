@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2CFEF01599FBA400F0D46A /* DataModels.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CFEEF1599FBA400F0D46A /* DataModels.m */; };
+		DB342E98158A095600501E28 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB342E97158A095600501E28 /* icon@2x.png */; };
+		DB342E9B158A096000501E28 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB342E9A158A096000501E28 /* icon.png */; };
+		DBA2C9FC158884870015E5ED /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA2C9FA158884870015E5ED /* PhotoViewController.m */; };
+		DBA2C9FD158884870015E5ED /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA2C9FB158884870015E5ED /* PhotoViewController.xib */; };
+		DBEC168315884FF200685713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEC168215884FF200685713 /* UIKit.framework */; };
+		DBEC168515884FF200685713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEC168415884FF200685713 /* Foundation.framework */; };
+		DBEC168715884FF200685713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEC168615884FF200685713 /* CoreGraphics.framework */; };
+		DBEC168D15884FF200685713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBEC168B15884FF200685713 /* InfoPlist.strings */; };
+		DBEC168F15884FF200685713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC168E15884FF200685713 /* main.m */; };
+		DBEC169315884FF200685713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC169215884FF200685713 /* AppDelegate.m */; };
+		DBEC169615884FF200685713 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEC169415884FF200685713 /* MainStoryboard.storyboard */; };
+		DBEC169915884FF200685713 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC169815884FF200685713 /* ViewController.m */; };
+		DBEC16A41588516700685713 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEC16A31588516700685713 /* libsqlite3.0.dylib */; };
+		DBEC16B01588517100685713 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16A71588517100685713 /* FMDatabase.m */; };
+		DBEC16B11588517100685713 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16A91588517100685713 /* FMDatabaseAdditions.m */; };
+		DBEC16B21588517100685713 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16AB1588517100685713 /* FMDatabasePool.m */; };
+		DBEC16B31588517100685713 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16AD1588517100685713 /* FMDatabaseQueue.m */; };
+		DBEC16B41588517100685713 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16AF1588517100685713 /* FMResultSet.m */; };
+		DBEC16BD1588549F00685713 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEC16BB1588549F00685713 /* NewViewController.m */; };
+		DBEC16BE1588549F00685713 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBEC16BC1588549F00685713 /* NewViewController.xib */; };
+		DBEC16C4158857CE00685713 /* medium_286019665.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBEC16C3158857CE00685713 /* medium_286019665.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB2CFEEE1599FBA400F0D46A /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		DB2CFEEF1599FBA400F0D46A /* DataModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModels.m; sourceTree = "<group>"; };
+		DB342E97158A095600501E28 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		DB342E9A158A096000501E28 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DBA2C9F9158884870015E5ED /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		DBA2C9FA158884870015E5ED /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		DBA2C9FB158884870015E5ED /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		DBEC167E15884FF200685713 /* SelfPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC168215884FF200685713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBEC168415884FF200685713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBEC168615884FF200685713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBEC168A15884FF200685713 /* SelfPhotoLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfPhotoLibrary-Info.plist"; sourceTree = "<group>"; };
+		DBEC168C15884FF200685713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBEC168E15884FF200685713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBEC169015884FF200685713 /* SelfPhotoLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfPhotoLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		DBEC169115884FF200685713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBEC169215884FF200685713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBEC169515884FF200685713 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DBEC169715884FF200685713 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBEC169815884FF200685713 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBEC16A31588516700685713 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DBEC16A61588517100685713 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DBEC16A71588517100685713 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DBEC16A81588517100685713 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DBEC16A91588517100685713 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DBEC16AA1588517100685713 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DBEC16AB1588517100685713 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DBEC16AC1588517100685713 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DBEC16AD1588517100685713 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DBEC16AE1588517100685713 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DBEC16AF1588517100685713 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DBEC16BA1588549F00685713 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		DBEC16BB1588549F00685713 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		DBEC16BC1588549F00685713 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		DBEC16C3158857CE00685713 /* medium_286019665.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = medium_286019665.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEC167B15884FF200685713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC16A41588516700685713 /* libsqlite3.0.dylib in Frameworks */,
+				DBEC168315884FF200685713 /* UIKit.framework in Frameworks */,
+				DBEC168515884FF200685713 /* Foundation.framework in Frameworks */,
+				DBEC168715884FF200685713 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEC167315884FF200685713 = {
+			isa = PBXGroup;
+			children = (
+				DBEC168815884FF200685713 /* SelfPhotoLibrary */,
+				DBEC168115884FF200685713 /* Frameworks */,
+				DBEC167F15884FF200685713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEC167F15884FF200685713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC167E15884FF200685713 /* SelfPhotoLibrary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEC168115884FF200685713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC16A31588516700685713 /* libsqlite3.0.dylib */,
+				DBEC168215884FF200685713 /* UIKit.framework */,
+				DBEC168415884FF200685713 /* Foundation.framework */,
+				DBEC168615884FF200685713 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBEC168815884FF200685713 /* SelfPhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC169115884FF200685713 /* AppDelegate.h */,
+				DBEC169215884FF200685713 /* AppDelegate.m */,
+				DBF836E0159FB01B00A815CC /* ViewController */,
+				DBF836E5159FB08C00A815CC /* Model（データの出し入れ） */,
+				DBF836E7159FB0D800A815CC /* 画像 */,
+				DBF836E6159FB0C300A815CC /* ライブラリ(FMDB） */,
+				DBEC168915884FF200685713 /* Supporting Files */,
+			);
+			path = SelfPhotoLibrary;
+			sourceTree = "<group>";
+		};
+		DBEC168915884FF200685713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC168A15884FF200685713 /* SelfPhotoLibrary-Info.plist */,
+				DBEC168B15884FF200685713 /* InfoPlist.strings */,
+				DBEC168E15884FF200685713 /* main.m */,
+				DBEC169015884FF200685713 /* SelfPhotoLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBEC16A51588517100685713 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC16A61588517100685713 /* FMDatabase.h */,
+				DBEC16A71588517100685713 /* FMDatabase.m */,
+				DBEC16A81588517100685713 /* FMDatabaseAdditions.h */,
+				DBEC16A91588517100685713 /* FMDatabaseAdditions.m */,
+				DBEC16AA1588517100685713 /* FMDatabasePool.h */,
+				DBEC16AB1588517100685713 /* FMDatabasePool.m */,
+				DBEC16AC1588517100685713 /* FMDatabaseQueue.h */,
+				DBEC16AD1588517100685713 /* FMDatabaseQueue.m */,
+				DBEC16AE1588517100685713 /* FMResultSet.h */,
+				DBEC16AF1588517100685713 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = ../FMDB;
+			sourceTree = "<group>";
+		};
+		DBF836E0159FB01B00A815CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC169415884FF200685713 /* MainStoryboard.storyboard */,
+				DBF836E2159FB03A00A815CC /* ホーム画面 */,
+				DBF836E3159FB04800A815CC /* 詳細画面 */,
+				DBF836E4159FB06800A815CC /* 新規登録画面 */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DBF836E2159FB03A00A815CC /* ホーム画面 */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC169715884FF200685713 /* ViewController.h */,
+				DBEC169815884FF200685713 /* ViewController.m */,
+			);
+			name = "ホーム画面";
+			sourceTree = "<group>";
+		};
+		DBF836E3159FB04800A815CC /* 詳細画面 */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2C9F9158884870015E5ED /* PhotoViewController.h */,
+				DBA2C9FA158884870015E5ED /* PhotoViewController.m */,
+				DBA2C9FB158884870015E5ED /* PhotoViewController.xib */,
+			);
+			name = "詳細画面";
+			sourceTree = "<group>";
+		};
+		DBF836E4159FB06800A815CC /* 新規登録画面 */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC16BA1588549F00685713 /* NewViewController.h */,
+				DBEC16BB1588549F00685713 /* NewViewController.m */,
+				DBEC16BC1588549F00685713 /* NewViewController.xib */,
+			);
+			name = "新規登録画面";
+			sourceTree = "<group>";
+		};
+		DBF836E5159FB08C00A815CC /* Model（データの出し入れ） */ = {
+			isa = PBXGroup;
+			children = (
+				DB2CFEEE1599FBA400F0D46A /* DataModels.h */,
+				DB2CFEEF1599FBA400F0D46A /* DataModels.m */,
+			);
+			name = "Model（データの出し入れ）";
+			sourceTree = "<group>";
+		};
+		DBF836E6159FB0C300A815CC /* ライブラリ(FMDB） */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC16A51588517100685713 /* FMDB */,
+			);
+			name = "ライブラリ(FMDB）";
+			sourceTree = "<group>";
+		};
+		DBF836E7159FB0D800A815CC /* 画像 */ = {
+			isa = PBXGroup;
+			children = (
+				DB342E9A158A096000501E28 /* icon.png */,
+				DBEC16C3158857CE00685713 /* medium_286019665.jpg */,
+				DB342E97158A095600501E28 /* icon@2x.png */,
+			);
+			name = "画像";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEC167D15884FF200685713 /* SelfPhotoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEC169C15884FF200685713 /* Build configuration list for PBXNativeTarget "SelfPhotoLibrary" */;
+			buildPhases = (
+				DBEC167A15884FF200685713 /* Sources */,
+				DBEC167B15884FF200685713 /* Frameworks */,
+				DBEC167C15884FF200685713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfPhotoLibrary;
+			productName = SelfPhotoLibrary;
+			productReference = DBEC167E15884FF200685713 /* SelfPhotoLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEC167515884FF200685713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Keio University";
+			};
+			buildConfigurationList = DBEC167815884FF200685713 /* Build configuration list for PBXProject "SelfPhotoLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBEC167315884FF200685713;
+			productRefGroup = DBEC167F15884FF200685713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEC167D15884FF200685713 /* SelfPhotoLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEC167C15884FF200685713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC168D15884FF200685713 /* InfoPlist.strings in Resources */,
+				DBEC169615884FF200685713 /* MainStoryboard.storyboard in Resources */,
+				DBEC16BE1588549F00685713 /* NewViewController.xib in Resources */,
+				DBEC16C4158857CE00685713 /* medium_286019665.jpg in Resources */,
+				DBA2C9FD158884870015E5ED /* PhotoViewController.xib in Resources */,
+				DB342E98158A095600501E28 /* icon@2x.png in Resources */,
+				DB342E9B158A096000501E28 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEC167A15884FF200685713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC168F15884FF200685713 /* main.m in Sources */,
+				DBEC169315884FF200685713 /* AppDelegate.m in Sources */,
+				DBEC169915884FF200685713 /* ViewController.m in Sources */,
+				DBEC16B01588517100685713 /* FMDatabase.m in Sources */,
+				DBEC16B11588517100685713 /* FMDatabaseAdditions.m in Sources */,
+				DBEC16B21588517100685713 /* FMDatabasePool.m in Sources */,
+				DBEC16B31588517100685713 /* FMDatabaseQueue.m in Sources */,
+				DBEC16B41588517100685713 /* FMResultSet.m in Sources */,
+				DBEC16BD1588549F00685713 /* NewViewController.m in Sources */,
+				DBA2C9FC158884870015E5ED /* PhotoViewController.m in Sources */,
+				DB2CFEF01599FBA400F0D46A /* DataModels.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBEC168B15884FF200685713 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEC168C15884FF200685713 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBEC169415884FF200685713 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEC169515884FF200685713 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBEC169A15884FF200685713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBEC169B15884FF200685713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEC169D15884FF200685713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfPhotoLibrary/SelfPhotoLibrary-Prefix.pch";
+				INFOPLIST_FILE = "SelfPhotoLibrary/SelfPhotoLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBEC169E15884FF200685713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfPhotoLibrary/SelfPhotoLibrary-Prefix.pch";
+				INFOPLIST_FILE = "SelfPhotoLibrary/SelfPhotoLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEC167815884FF200685713 /* Build configuration list for PBXProject "SelfPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC169A15884FF200685713 /* Debug */,
+				DBEC169B15884FF200685713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEC169C15884FF200685713 /* Build configuration list for PBXNativeTarget "SelfPhotoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC169D15884FF200685713 /* Debug */,
+				DBEC169E15884FF200685713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEC167515884FF200685713 /* Project object */;
+}
